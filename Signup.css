@@ -1,0 +1,54 @@
+.container {
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url('https://th.bing.com/th/id/R.97876cfd094385e41284df5a4929d1f9?rik=Vik99FWRvEwX1Q&riu=http%3a%2f%2fwww.baltana.com%2ffiles%2fwallpapers-16%2f4K-Black-Background-Design-Desktop-HD-Wallpaper-40659.jpg&ehk=FYIe%2bqlLnh7qDRMMgUM6QV6tygO%2fRHs2ychcca4DIj0%3d&risl=&pid=ImgRaw&r=0');
+    background-size: cover;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #efe5e5;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    margin-bottom: 8px;
+    font-weight: bold;
+  }
+  
+  input {
+    padding: 10px;
+    margin-bottom: 16px;
+    border: 1px solid #f9f5f5;
+    border-radius: 4px;
+  }
+  
+  button {
+    background-color: #4caf50;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
